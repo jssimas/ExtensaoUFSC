@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7e57c2;
+    color: #ffffff;
+}
+.container-timer{
+    background-color: #b085f5;
+    height: 300px;
+    width: 500px;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.timer{
+    font-size: 6rem;
+}
+input{
+    width: 400px;
+    height: 30px;
+    margin-top: 40px;
+    margin-bottom:10px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bolder;
+    color: #ffffff;
+}
+.start-btn{
+    background-color: #7e56c1;
+    border: 2px solid #4d2b90;
+    border-radius: 0.3rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bolder;
+    height: 40px;
+    width: 150px;
+}
+.container-tasks{
+    width: 500px;
+
+}
+.container-tasks span{
+    font-size: 1.3rem;
+    display: block;
+   
+    text-align: center;
+}
+.container-tasks hr{
+    font-size: 1.4rem;
+    width: 500px;
+    color: #ffffff;
+}
+.tarefa-li{
+    font-size: 1.3rem;
+    list-style: none;
+    border-bottom: 2px solid #4d2b90;
+    height: 40px;
+    margin-top: 10px;
+}

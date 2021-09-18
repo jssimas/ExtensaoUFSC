@@ -1,0 +1,24 @@
+.container{
+  border: 1px solid black;
+  width: 400px;
+  border-radius: 0.4rem;
+  padding: 20px;
+  background-color: lightseagreen;
+}
+.text-align{
+  text-align: center;
+}
+
+.lista-compras{
+  list-style: none;
+  padding: 0;
+}
+.lista-compras li{
+  border: 1px solid black;
+  margin-top: 10px;
+  border-radius: 0.3rem;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -1,0 +1,18 @@
+.container{
+  border: 3px solid black;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 20px;
+}
+p{
+  font-size: 1.2rem;
+}
+#resultado{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}

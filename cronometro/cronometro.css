@@ -1,0 +1,21 @@
+.container{
+  width: 250px;
+  height: 300px;
+  padding: 10px;
+  border: 1px solid blue;
+  color: navy;
+  text-align: center;
+  background-color: skyblue;
+}
+.valor{
+  padding: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+button{
+  padding: 10px;
+  font-size: 1.1rem;
+  background-color: navy;
+  color: #ffffff;
+  font-weight: bolder;
+}

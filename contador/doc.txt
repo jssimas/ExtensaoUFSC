@@ -1,0 +1,67 @@
+
+//Selecionando elementos do meu HTML
+
+1) irá retornar o elemento html pelo seu id
+
+document.getElementById('id do elemento aqui')
+
+2) irá retornar um HTML collection com todos os elementos que possuem a class especificada
+
+document.getElementsByClassName('nome da classe aqui')
+
+3) retorna uma coleção com todos os elementos que são da tag especificada;
+
+document.getElementsByTagName('div')
+
+4) retorna o primeiro elemento do selector que foi passado;
+  -- retorna primeira div encontrada
+document.querySelector('div')
+  -- retorna o primeiro elemento com a class box
+document.querySelector('.box')
+  -- retorna o primeiro elemento com o id caixa
+document.querySelector('#caixa')
+
+é possível ir mais afundo na hierarquia com o query selector
+  -- retorna o primeiro elemento com o id caixa que estiver dentro do primeiro elemento encontrado com a class container
+document.querySelector('.container #caixa')
+
+
+5) Igual ao querySelector, porém retorna uma lista de elementos.
+
+  -- retorna todas as tags div que estiverem dentro de um container com 
+document.querySelectorAll('#container-div div')
+
+
+// retorna uma string de dentro de um elemento
+element.textContent
+
+// retorna em forma de string o html de dentro de uma tag 
+element.innerHTML
+
+//adicionando um elemento html
+element.innerHTML += '<h1> hello world </h1>
+
+
+//removendo elementos
+remove o proprio elemento
+element.remove()
+// removendo filho
+---> tenho q passar como parametro um elemento filho
+element.removeChild(elemento q vai ser removido)
+exemplo:
+container.removeChild(primeira-div)
+
+//estilizando
+element.style = 'background-color: blue;font-size: 10px;'
+
+
+//adicionando eventos
+---> Primeiro parametro tipo do evento, segundo parametro uma função que será executada.
+
+element.addEventListener('tipo de evento', function(e){
+  //faz alguma coisa
+});
+
+
+
+

@@ -16,8 +16,14 @@ btns[0].addEventListener('click', function(e){
 });
 // botão stop
 btns[1].addEventListener('click', function(e){
-  clearInterval(interval)
-  ligado = false
+  if(ligado === false){
+	  alert('Cronometro já está desligado')
+  }
+  else{
+    clearInterval(interval)
+  	ligado = false
+  }
+
 });
 // botão reset
 btns[2].addEventListener('click', function(e){

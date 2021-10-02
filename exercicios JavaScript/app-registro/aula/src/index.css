@@ -1,0 +1,175 @@
+/*  config inicial */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+.App{
+  background: #1488CC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+}
+
+/* NavBar */
+.navbar-container{
+  
+  height: 15vh;
+  min-height: 100px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-title{
+  font-size: 1.5rem
+}
+.navbar-links{
+  display: flex;
+  list-style: none;
+}
+.navbar-links a{
+  margin: 0 20px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 0.3rem;
+}
+/* form cadastro */
+
+.form-container{
+  height: 85vh;
+   color: #ffffff;
+}
+.data-container{
+  border: 1px solid #ffffff;
+  border-radius: 0.3rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 500px;
+  height: 100%;
+}
+.form-container label{
+  text-align: left;
+  width: 300px;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+.form-container input{
+  width: 300px;
+  outline: none;
+  height: 35px;
+  border-radius: 0.5rem;
+}
+.form-container button{
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 0.3rem;
+  font-size: 20px;
+}
+.form-container .cidade{
+  width: 300px;
+  height: 40px;
+}
+/* home */
+.home-container{
+  position: relative;
+  width: 450px;
+  margin: 0 auto;
+  padding: 25px;
+}
+.home-data-container{
+  padding: 5px;
+  border: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+  overflow-y: scroll;
+  border-radius: 0.3rem;
+  position: relative;
+}
+
+.filtro-container{
+  position: absolute;
+  top: 0;
+  left: 10;
+  font-size: 1.1rem;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.filtro-container select{
+  width: 150px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 0.3rem;
+}
+/* teste-info component */
+.teste-info-component{
+  border: 1px solid #ffffff;
+  width: 300px;
+  font-size: 1.1rem;
+  color: #ffffff;
+  border-radius: 0.3rem;
+  margin: 10px 0;
+  padding: 10px;
+  position: relative;
+}
+.user-btn{
+  position: absolute;
+  top: 5%;
+  left: 90%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.person-data{
+  border: 1px solid #ffffff;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 400px;
+  border-radius: 0.3rem;
+}
+.person-info{
+  margin: 20px 0;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+.delete-btn{
+  border: 1px solid #ffffff;
+  width: 65px;
+  height: 65px;
+  padding: 18px;
+  color: #ffffff;
+  cursor: pointer;
+
+}
+.delete-btn i {
+  font-size: 1.5rem;
+}
+
+.page-not-found{
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+
+}
+.page-not-found span{
+  font-size: 5rem;
+}
+.page-not-found i{
+  font-size: 5rem;
+  margin:50px 0;
+}

@@ -1,0 +1,46 @@
+{
+  "registros": [
+    {
+      "nome": "João Silva",
+      "idade": 39,
+      "cidade": "blumenau",
+      "infectado": true,
+      "id": 0
+    },
+    {
+      "nome": "Maria Bardini",
+      "idade": 17,
+      "cidade": "Florianópolis",
+      "infectado": false,
+      "id": 4
+    },
+    {
+      "nome": "Maria de nazare",
+      "idade": 14,
+      "cidade": "Florianópolis",
+      "infectado": false,
+      "id": 7
+    },
+    {
+      "nome": "Sophia Costa",
+      "idade": "9",
+      "cidade": "Joinville",
+      "infectado": true,
+      "id": 8
+    },
+    {
+      "nome": "Rafael Silva",
+      "idade": 19,
+      "cidade": "Florianópolis",
+      "infectado": false,
+      "id": 9
+    },
+    {
+      "nome": "Kalleo",
+      "idade": "20",
+      "cidade": "Joinville",
+      "infectado": true,
+      "id": 12
+    }
+  ]
+}
